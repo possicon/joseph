@@ -1,0 +1,48 @@
+      {/* Interactive Timeline - Horizontal Scrolling */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">
+            Journey of Impact
+          </h2>
+          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+            A timeline of academic excellence, innovation, and community service
+          </p>
+          
+          {/* Horizontal Scrolling Container */}
+          <div className="relative">
+            <div className="overflow-x-auto pb-8" style={{scrollbarWidth: 'thin'}}>
+              <div className="flex gap-6 min-w-max px-4 relative">
+                {/* Horizontal Line */}
+                <div className="absolute top-20 left-0 right-0 h-1 bg-gradient-to-r from-blue-400 via-purple-400 via-orange-400 via-green-400 to-indigo-400"></div>
+                
+                {/* Timeline Items */}
+                {[
+                  { title: "Achieve Balance", date: "July 2023", color: "blue", desc: "Co-created student-athlete scheduling tool at American University, addressing mental health and time management." },
+                  { title: "Fencing Team", date: "2023", color: "green", desc: "Joined school fencing team, developing discipline, strategy, and athletic excellence." },
+                  { title: "NIKA Internship", date: "August 2024", color: "orange", desc: "Gained professional experience in technology sector, applying technical skills in real-world business environment." },
+                  { title: "Giveback Backpacks", date: "2024-Present", color: "purple", desc: "Co-founded community service organization providing school supplies to hundreds of students in need." },
+                  { title: "Shepherd's Table", date: "2024-2025", color: "blue", desc: "Dedicated 2-3 years volunteering at community center, helping cook and serve hundreds of people daily." },
+                  { title: "Johns Hopkins Engineering", date: "July 2025", color: "indigo", desc: "Completed rigorous college-level engineering program, earning Grade A in multiple engineering disciplines." },
+                  { title: "DiscoverU - HackBack Winner 🏆", date: "2025", color: "yellow", desc: "Won HackBack competition with AI-powered career counseling platform. Research study with 60+ students demonstrated significant improvements." },
+                  { title: "Leukemia & Lymphoma Society", date: "2025", color: "red", desc: "Organized and led fundraising efforts, raising over $50,000 for cancer research and patient services." },
+                  { title: "Leadership Roles", date: "Current", color: "blue", desc: "Programming & Design Lead for Robotics Team | Chess Club Co-Captain | Theatre Set Design Staff" }
+                ].map((item, index) => (
+                  <div key={index} className="flex flex-col items-center relative" style={{minWidth: '280px'}}>
+                    {/* Dot */}
+                    <div className={`w-10 h-10 bg-${item.color}-500 rounded-full border-4 border-white shadow-lg z-10 mb-4 flex items-center justify-center`}>
+                      <div className="w-3 h-3 bg-white rounded-full"></div>
+                    </div>
+                    {/* Card */}
+                    <div className={`bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all hover:-translate-y-2 border-l-4 border-${item.color}-500 w-full`}>
+                      <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
+                      <p className={`text-sm text-${item.color}-600 font-semibold mb-3`}>{item.date}</p>
+                      <p className="text-gray-700 text-sm">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
