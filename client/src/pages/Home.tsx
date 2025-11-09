@@ -35,7 +35,7 @@ export default function Home() {
                 </Link>
               </div>
               <a 
-                href="/joseph-peters-resume.pdf" 
+                href="/Joseph Peters Resume.pdf" 
                 download
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
               >
@@ -69,6 +69,44 @@ export default function Home() {
             solutions that increase independence for people with disabilities.
           </p>
         </div>
+        <div className="flex flex-col mx-auto px-14 py-10 md:flex-row gap-y-4 w-full justify-between">
+                <div className="md:w-3/5 shadow-[inset_0px_3.33px_20.42px_0px_#1650F51F] bg-[#F7F7F7] p-6 rounded-2xl space-y-4 text-[#111111]">
+                    <div className="bg-white space-y-4 p-4 rounded-2xl text-[15px] font-base">
+                        <p>"What sets me apart is my commitment to connecting technical innovation with ethical and moral reasoning, reflecting my studies in Justice and Biblical Theology.
+                        </p>
+                        <p>
+                            Through my work with HackBack, robotics competitions, and community service initiatives like Giveback Backpacks, I have consistently demonstrated that technology can be a powerful force for social good. 
+                        </p>
+                    </div>
+                    <div className="bg-white space-y-4 p-4 rounded-2xl text-[15px] font-base">
+                        <p>
+                            My approach is analytical and persistent—I break down complex problems into solvable parts and push through challenges until meaningful solutions emerge.
+
+                        </p>
+                        <p>
+                            Currently, I am conducting independent research on the gamification of education and its impact on student motivation. I love taking apart and reassembling systems—whether robotics, automotive parts, or software—because understanding how things work is the first step to making them better."
+                        </p>
+                    </div>
+                </div>
+                <div className="md:w-1/3 shadow-[inset_0px_3.33px_20.42px_0px_#1650F51F] bg-[#F7F7F7] md:p-6 p-3 rounded-xl flex justify-center items-center">
+                    <div className="flex justify-center items-center gap-x-2 gap-y-10 flex-wrap text-[#1F1F1F]">
+                        <div className="bg-white space-y-2 p-4 rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex flex-col items-center justify-center w-[40%] text-center shadow-soft">
+                            <h3 className="leading-[1.3rem]">2025 Hackathon Winner</h3>
+                            <img src="certificate-check-svgrepo-com.svg" className="w-8" alt="" />
+                        </div>
+                        <div className="bg-white space-y-2 p-4 rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex flex-col items-center justify-center w-[40%] text-center shadow-soft">
+                            <h3 className="font-base leading-[1.3rem]">Robotics Competition Win</h3>
+                            <img src="icons8-checkmark.svg" className="w-8" alt="" />
+                        </div>
+                        <div className="bg-white space-y-2 p-4 rounded-2xl flex-col text-[16.6px] font-base md:w-[130px] h-32 flex items-center justify-center w-[40%] text-center shadow-soft"><h3 className="leading-[1.3rem]">College Java Cert</h3>
+                            <img src="rocket-svgrepo-com (1).svg" className="w-8" alt="" />
+                        </div>
+                        <div className="bg-white space-y-2 p-4 flex-col rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex items-center justify-center w-[40%] text-center shadow-soft"><h3 className="leading-[1.3rem]">2023 Hackaton win</h3>
+                            <img src="flag-svgrepo-com.svg" className="w-8" alt="" />
+                        </div>
+                    </div>
+                </div>
+        </div>
       </section>
 
       {/* Interactive Activity Showcase - 4 Hero Sections */}
@@ -83,9 +121,9 @@ export default function Home() {
             <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-orange-500 overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="/nika-internship.jpeg" 
+                  src="/robotics-team.jpeg" 
                   alt="Innovation & Technology" 
-                  className="w-full h-full object-cover object-[center_0%] group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover object-[center_30%] group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-6">

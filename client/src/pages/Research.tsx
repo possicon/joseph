@@ -8,7 +8,7 @@ export default function Research() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link href="/">
-              <a className="text-2xl font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
+              <a className="text-2xl capitalize font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
                 Joseph Peters
               </a>
             </Link>
@@ -31,7 +31,7 @@ export default function Research() {
                 </Link>
               </div>
               <a 
-                href="/joseph-peters-resume.pdf" 
+                href="/Joseph Peters Resume.pdf" 
                 download
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
               >
@@ -43,7 +43,7 @@ export default function Research() {
       </nav>
 
       {/* Hero Section - Reduced Height */}
-      <section className="relative h-[300px] flex items-center justify-center mt-20">
+      <section className="relative h-[200px] flex items-center justify-center mt-20">
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: 'url(/hackbac-meeting.jpeg)' }}

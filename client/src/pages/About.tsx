@@ -31,7 +31,7 @@ export default function About() {
                 </Link>
               </div>
               <a 
-                href="/joseph-peters-resume.pdf" 
+                href="/Joseph Peters Resume.pdf" 
                 download
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
               >
@@ -43,7 +43,7 @@ export default function About() {
       </nav>
 
       {/* Hero Section - Reduced Height */}
-      <section className="relative h-[300px] flex items-center justify-center bg-gradient-to-br from-indigo-600 to-purple-700 mt-20">
+      <section className="relative h-[200px] flex items-center justify-center bg-gradient-to-br from-indigo-600 to-purple-700 mt-20">
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-6xl md:text-7xl font-bold mb-4">ABOUT ME</h1>
           <p className="text-xl md:text-2xl font-light">My journey, values, and vision</p>
@@ -73,16 +73,11 @@ export default function About() {
 
             {/* Professional Portraits */}
             <div>
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex items-center justify-center">
                 <img 
                   src="/joseph-portrait-1.jpeg" 
                   alt="Joseph Peters Professional Portrait" 
-                  className="rounded-lg shadow-lg w-full object-cover h-96 object-[center_20%]"
-                />
-                <img 
-                  src="/joseph-portrait-2.jpeg" 
-                  alt="Joseph Peters Professional Portrait" 
-                  className="rounded-lg shadow-lg w-full object-cover h-96 object-[center_15%]"
+                  className="rounded-lg shadow-lg w-[60%] object-cover h-130 object-[center_20%]"
                 />
               </div>
             </div>
@@ -118,37 +113,58 @@ export default function About() {
                   </div>
                 </div>
 
-                {/* 2. Chess Club Co-Captain - SECOND */}
-                <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-lg border-l-4 border-purple-600">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">♟️ Chess Club Co-Captain</h3>
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    As Co-Captain of the school chess team, I coordinate weekly practice sessions, mentor newer players on opening theory and endgame tactics, and represent our school in competitive inter-school tournaments. Chess has sharpened my strategic thinking and taught me that the best moves often require patience and foresight.
-                  </p>
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
-                      <span className="text-sm text-gray-700">Team leadership & mentorship</span>
-                    </div>
+                <div className="grid md:grid-cols-2 gap-3">
+                  <div className="border-l-4 border-orange-600 w-full relative rounded-2xl">
+                      <img src="chess.png" className="w-full h-[350px] object-cover rounded-2xl" alt="" />
+                      <div className="absolute bottom-0 p-4 bg-opacity-90 text-white bg-black/50 w-full rounded-b-2xl">
+                          <h3 className="text-[20px]">Chess Club - Co Captain</h3>
+                          <p className="text-[13px]">In the Chess Club (Lions), I helped amplify the school's chess team and now lead recruitment, training, and competition strategy. I help in organising weekly practice sessions, coordinating inter-school matches, and mentoring newer players. I also prototyped a mobile app to connect chess clubs across schools, expanding competitive opportunities beyond our immediate community.</p>
+                      </div>
                   </div>
-                </div>
+                  <div className="border-l-4 border-amber-600 w-full relative rounded-2xl">
+                      <img src="cinema.png" className="w-full h-[350px] object-cover rounded-2xl" alt="" />
+                      <div className="absolute bottom-0 p-4 bg-opacity-90 text-white bg-black/50 w-full rounded-b-2xl">
+                          <h3 className="text-[20px]">Theatre Set Design</h3>
+                          <p className="text-[13px]">
+                              As a staff member for the school's Theatre and Set Design, I help in optimizing the school's play and theatre ground and now help in the production of theatre plays. I build the sets needed for the plays over the weeks during the winter, and helped to schedule and rehearse in the plays.                        
+                          </p>
+                      </div>
+                  </div>
+                  <div className="border-l-4 border-purple-600 w-full relative rounded-2xl">
+                      <img src="robotics.png" className="w-full h-[350px] object-cover rounded-2xl" alt="" />
+                      <div className="absolute bottom-0 p-4 bg-opacity-90 text-white bg-black/50 w-full rounded-b-2xl">
+                          <h3 className="text-[20px]">Robotics Club - Programming & Design Lead</h3>
+                          <p className="text-[13px]">
+                              I lead programming and design for our school's competitive robotics team. My responsibilities include writing control code, designing and manufacturing robot components using CAD, strategizing for competitions, and presenting our work to judges and sponsors. I guide the team through the iterative design process, troubleshooting technical challenges and optimizing performance.                        </p>
+                      </div>
+                  </div>
+                  <div className="border-l-4 border-blue-600 w-full relative rounded-2xl">
+                      <img src="lukemia.png" className="w-full h-[350px] object-cover rounded-2xl" alt=""/>
+                      <div className="absolute bottom-0 p-4 bg-opacity-90 text-white bg-black/50 w-full rounded-b-2xl">
+                          <h3 className="text-[20px]">Leukemia & Lymphoma Society (LLS) - Fundraising Leadership</h3>
+                          <p className="text-[13px]">
+                              I helped organize and lead fundraising efforts for the Leukemia & Lymphoma Society, raising over $, to support cancer research and patient services. This involved coordinating events,
+                              engaging community members, and building awareness about blood cancer research. The experience taught me how to mobilize people around a meaningful cause and demonstrated the real-world impact of persistent, organized effort.                         </p>
+                      </div>
+                  </div>
+                  <div className="border-l-4 border-green-600 w-full relative rounded-2xl">
+                      <img src="/communitybag.jpeg" className="w-full h-[350px] object-cover rounded-2xl object-[center_0%]" alt="" />
+                      <div className="absolute bottom-0 p-4 bg-opacity-90 text-white bg-black/50 w-full rounded-b-2xl">
+                          <h3 className="text-[20px]">Giveback Backpacks - Co-Founder</h3>
+                          <p className="text-[13px]">
+                              Co-founded and lead a community service organisation providing backpacks and school supplies to students in need. Organise fundraising campaigns, coordinate supply drives, and partner with local schools to ensure educational equity.</p>
+                      </div>
+                  </div>
 
-                {/* 3. Theatre & Performance - THIRD */}
-                <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg border-l-4 border-green-600">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">🎭 Theatre: Building Sets</h3>
-                  <p className="text-gray-700 leading-relaxed mb-4">
-                    Behind every great performance is a team that brings the vision to life. I work on the technical theatre crew, designing and constructing stage sets for school productions. From measuring and cutting lumber to painting backdrops and problem-solving structural challenges, I've learned that theatre is as much about engineering and craftsmanship as it is about performance.
-                  </p>
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                      <span className="text-sm text-gray-700">Set design & construction</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                      <span className="text-sm text-gray-700">Collaborative problem-solving</span>
-                    </div>
-                  </div>
-                </div>
+                  <div className="border-l-4 border-teal-600 w-full relative rounded-2xl">
+                      <img src="/shepherds-table.jpeg" className="w-full h-[350px] object-cover object-[center_0%] rounded-2xl" alt="" />
+                      <div className="absolute bottom-0 p-4 bg-opacity-90 text-white bg-black/50 w-full rounded-b-2xl">
+                          <h3 className="text-[20px]">Shepherd’s Table</h3>
+                          <p className="text-[13px]">
+                              Volunteering at a local community center established for helping people in need. I’ve been volunteering at Shepherds table for the past 2-3 years helping to cook and clean for people in need across the country.                        </p>
+                      </div>
+                  </div>  
+                </div>    
 
                 {/* 4. Fencing - LAST */}
                 <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-lg border-l-4 border-orange-600">
@@ -171,7 +187,7 @@ export default function About() {
                     <img 
                       src="/fencing.jpeg" 
                       alt="Achieve Balance Project" 
-                      className="rounded-lg shadow-md w-full object-cover mb-4"
+                      className="rounded-lg shadow-md w-full h-96 object-cover mb-4"
                     />
                     <div className="w-full space-y-2">
                       <video  
