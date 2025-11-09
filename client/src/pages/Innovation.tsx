@@ -10,7 +10,7 @@ export default function Innovation() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <Link href="/">
-              <a className="text-2xl font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
+              <a className="text-2xl capitalize font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
                 Joseph Peters
               </a>
             </Link>
@@ -33,7 +33,7 @@ export default function Innovation() {
                 </Link>
               </div>
               <a 
-                href="/joseph-peters-resume.pdf" 
+                href="/Joseph Peters Resume.pdf" 
                 download
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
               >
@@ -45,7 +45,7 @@ export default function Innovation() {
       </nav>
 
       {/* Hero Section - Solid Color */}
-      <section className="relative h-[300px] flex items-center justify-center mt-20 bg-gradient-to-br from-orange-600 to-red-600">
+      <section className="relative h-[200px] flex items-center justify-center mt-20 bg-gradient-to-br from-orange-600 to-red-600">
         <div className="relative z-10 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-white drop-shadow-lg">
             INNOVATION
@@ -64,14 +64,19 @@ export default function Innovation() {
               <CardHeader>
                 <div className="flex items-start justify-between flex-wrap gap-4">
                   <div>
-                    <CardTitle className="text-3xl mb-2">DiscoverU</CardTitle>
+                    <CardTitle className="text-3xl mb-2">DiscoverU – Gamified Career Exploration (2023 – 2025)</CardTitle>
                     <Badge className="bg-yellow-500 hover:bg-yellow-600">🏆 2025 HackBack Winner</Badge>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  Won first place at HackBac 2025 in the Education/Venture track with DiscoverU, an AI-powered career counseling platform that uses gamification to help students discover meaningful career paths. Conducted rigorous research with 60+ students across three public schools, demonstrating that DiscoverU achieved significantly higher satisfaction, increased confidence, and greater career exploration compared to traditional counseling methods.
+                  DiscoverU began with a simple question: what if exploring careers could feel as engaging as playing a game? Most students are asked to choose a career path without ever experiencing what that path feels like. I wanted to change that.
+                  <br />
+                  DiscoverU is an AI-supported, game-based platform that lets students explore careers through interactive storytelling and adaptive feedback. The system presents real-world challenges tied to different professions, and students make choices that reveal how their interests align with those fields.
+                  I built the prototype, wrote the decision logic, and connected it to key career development frameworks. DiscoverU won First Place at HackBack among 60 participants for its innovative approach to making career discovery personal and accessible.
+                  <br />
+                  My next goal is to pilot DiscoverU in schools, measure its impact on student motivation, and expand it into a scalable platform that can help students everywhere navigate their futures with confidence.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline">Game Development</Badge>
@@ -129,12 +134,15 @@ export default function Innovation() {
             {/* Assistive Robotic Arm */}
             <Card className="hover:shadow-xl transition-shadow">
               <CardHeader>
-                <CardTitle className="text-3xl">Assistive Robotic Arm</CardTitle>
+                <CardTitle className="text-3xl">Rover with Sorting Arm (2024 – Present)</CardTitle>
                 <p className="text-gray-600">Passion Project</p>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  A 4-degree-of-freedom robotic arm designed to help people with limited mobility complete essential daily tasks such as picking up small objects, pressing switches, and holding utensils. Built with Arduino, servo motors, and 3D-printed components, this open-source prototype demonstrates how affordable robotics can increase independence and improve quality of life.
+                  What began as a small idea about waste management has become one of my most ambitious engineering challenges. I am building a rover that can detect, identify, and sort plastics, metals, and other recyclables. Built on a Raspberry Pi and programmed in Python, the rover uses sensors to classify materials by type. <br />
+                  This project has pushed me to think like both an engineer and a designer, balancing mechanical precision with software logic. Each prototype teaches me something new about control systems, power management, and the importance of iteration. <br />
+                  My goal is to add a robotic arm and integrate computer vision so the rover can recognize materials using OpenCV. It is still in development, but the process has already taught me what true engineering persistence looks like: hundreds of small improvements leading toward a smarter and more sustainable system. <br />
+
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline">Robotics</Badge>
@@ -158,12 +166,14 @@ export default function Innovation() {
             {/* Johns Hopkins Engineering Innovation */}
             <Card className="hover:shadow-xl transition-shadow bg-gradient-to-br from-blue-50 to-indigo-50">
               <CardHeader>
-                <CardTitle className="text-3xl">Johns Hopkins Engineering Innovation</CardTitle>
+                <CardTitle className="text-3xl">Johns Hopkins Engineering Innovation Program (Summer 2024)</CardTitle>
                 <p className="text-gray-600">Summer 2025 Program • Grade A</p>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  Completed the rigorous Johns Hopkins Engineering Innovation program, earning Grade A while developing advanced engineering problem-solving skills. The program provided hands-on experience with college-level engineering concepts, design thinking, and technical project development.
+                  I completed a four-week pre-college course in Electrical and Computer Engineering through Johns Hopkins University’s Engineering Innovation Program. The course deepened my understanding of programming logic, circuit design, and problem solving through real engineering projects. <br />
+                  I also completed a month-long Workforce Development course in Intermediate Java Programming, where I built object-oriented projects that improved my ability to translate concepts into working code. <br />
+                  Together, these experiences strengthened both my technical foundation and my confidence in applying theory to hands-on design. <br />
                 </p>
                 <div className="grid md:grid-cols-2 gap-4 mt-4">
                   <div className="w-full">
@@ -270,7 +280,9 @@ export default function Innovation() {
             {/* Achieve Balance */}
             <Card className="hover:shadow-xl transition-shadow">
               <CardHeader>
-                <CardTitle className="text-3xl">Achieve Balance</CardTitle>
+                <CardTitle className="text-3xl">
+                  Achieve Balance – Student Athlete Planner (Summer 2023)
+                </CardTitle>
                 <p className="text-gray-600">American University Project (2023)</p>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -287,7 +299,9 @@ export default function Innovation() {
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Co-created a comprehensive scheduling tool designed specifically for student-athletes to balance academics, sports training, and mental health. The platform helps users manage their time effectively by providing intelligent scheduling, workload visualization, and wellness check-ins.
+                  Achieve Balance was built for students who are managing both academics and athletics. During a summer program at American University, I led a small team to design a productivity app that helps student-athletes track their goals, assignments, and training schedules in one place.
+                  <br />
+                  Our vision was to create a planner that encourages not just time management but balance, blending achievement with well-being. The project won First Place among eight teams for combining thoughtful design with meaningful purpose.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline">Web Development</Badge>

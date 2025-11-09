@@ -10,7 +10,7 @@ export default function Community() {
           <div className="flex items-center justify-between">
             <Link href="/">
               <a className="text-2xl font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
-                Joseph Peters
+                JOSEPH PETERS
               </a>
             </Link>
             <div className="flex items-center gap-8">
@@ -32,7 +32,7 @@ export default function Community() {
                 </Link>
               </div>
               <a 
-                href="/joseph-peters-resume.pdf" 
+                href="/Joseph Peters Resume.pdf" 
                 download
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
               >
@@ -44,7 +44,7 @@ export default function Community() {
       </nav>
 
       {/* Hero Section - Reduced Height */}
-      <section className="relative h-[300px] flex items-center justify-center bg-gradient-to-br from-blue-600 to-indigo-700 mt-20">
+      <section className="relative h-[200px] flex items-center justify-center bg-gradient-to-br from-blue-600 to-indigo-700 mt-20">
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-6xl md:text-7xl font-bold mb-4">WE GIVE</h1>
           <p className="text-xl md:text-2xl font-light">Serving communities and empowering the next generation</p>
