@@ -1,46 +1,11 @@
 import { Link } from "wouter";
+import Nav from "./Nav";
 
 export default function Research() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/">
-              <a className="text-2xl capitalize font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
-                Joseph Peters
-              </a>
-            </Link>
-            <div className="flex items-center gap-8">
-              <div className="hidden md:flex gap-8">
-                <Link href="/">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">HOME</a>
-                </Link>
-                <Link href="/about">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">ABOUT</a>
-                </Link>
-                <Link href="/innovation">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">INNOVATION</a>
-                </Link>
-                <Link href="/research">
-                  <a className="text-blue-600 font-medium border-b-2 border-blue-600 pb-1">RESEARCH</a>
-                </Link>
-                <Link href="/community">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">COMMUNITY</a>
-                </Link>
-              </div>
-              <a 
-                href="/Joseph Peters Resume.pdf" 
-                download
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
-              >
-                Download Resume
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Nav/>
 
       {/* Hero Section - Reduced Height */}
       <section className="relative h-[200px] flex items-center justify-center mt-20">

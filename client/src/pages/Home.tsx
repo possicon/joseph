@@ -3,48 +3,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, Lightbulb, Users, Rocket, Heart } from "lucide-react";
+import Nav from "./Nav";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/">
-              <a className="text-2xl font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
-                JOSEPH PETERS
-              </a>
-            </Link>
-            <div className="flex items-center gap-8">
-              <div className="flex gap-8">
-                <Link href="/">
-                  <a className="text-blue-600 font-medium border-b-2 border-blue-600 pb-1">HOME</a>
-                </Link>
-                <Link href="/about">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">ABOUT</a>
-                </Link>
-                <Link href="/innovation">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">INNOVATION</a>
-                </Link>
-                <Link href="/research">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">RESEARCH</a>
-                </Link>
-                <Link href="/community">
-                  <a className="text-gray-700 hover:text-blue-600 font-medium transition-colors">COMMUNITY</a>
-                </Link>
-              </div>
-              <a 
-                href="/Joseph Peters Resume.pdf" 
-                download
-                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors"
-              >
-                Download Resume
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Nav/>
 
       {/* Word Cloud Hero Section */}
       <section className="pt-10 bg-white">
@@ -69,7 +34,7 @@ export default function Home() {
             solutions that increase independence for people with disabilities.
           </p>
         </div>
-        <div className="flex flex-col mx-auto px-14 py-10 md:flex-row gap-y-4 w-full justify-between">
+        <div className="flex flex-col mx-auto px-6 md:px-16 py-10 md:flex-row gap-y-4 w-full justify-between">
                 <div className="md:w-3/5 shadow-[inset_0px_3.33px_20.42px_0px_#1650F51F] bg-[#F7F7F7] p-6 rounded-2xl space-y-4 text-[#111111]">
                     <div className="bg-white space-y-4 p-4 rounded-2xl text-[15px] font-base">
                         <p>"What sets me apart is my commitment to connecting technical innovation with ethical and moral reasoning, reflecting my studies in Justice and Biblical Theology.
@@ -89,7 +54,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="md:w-1/3 shadow-[inset_0px_3.33px_20.42px_0px_#1650F51F] bg-[#F7F7F7] md:p-6 p-3 rounded-xl flex justify-center items-center">
-                    <div className="flex justify-center items-center gap-x-2 gap-y-10 flex-wrap text-[#1F1F1F]">
+                    <div className="flex justify-center items-center gap-x-3 md:gap-y-10 gap-y-5 flex-wrap text-[#1F1F1F]">
                         <div className="bg-white space-y-2 p-4 rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex flex-col items-center justify-center w-[40%] text-center shadow-soft">
                             <h3 className="leading-[1.3rem]">2025 Hackathon Winner</h3>
                             <img src="certificate-check-svgrepo-com.svg" className="w-8" alt="" />
