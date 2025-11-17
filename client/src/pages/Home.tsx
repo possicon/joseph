@@ -56,17 +56,17 @@ export default function Home() {
                 <div className="md:w-1/3 shadow-[inset_0px_3.33px_20.42px_0px_#1650F51F] bg-[#F7F7F7] md:p-6 p-3 rounded-xl flex justify-center items-center">
                     <div className="flex justify-center items-center gap-x-3 md:gap-y-10 gap-y-5 flex-wrap text-[#1F1F1F]">
                         <div className="bg-white space-y-2 p-4 rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex flex-col items-center justify-center w-[40%] text-center shadow-soft">
-                            <h3 className="leading-[1.3rem]">2025 Hackathon Winner</h3>
+                            <h3 className="leading-[1.3rem] font-medium">2025 Hackathon Winner</h3>
                             <img src="certificate-check-svgrepo-com.svg" className="w-8" alt="" />
                         </div>
                         <div className="bg-white space-y-2 p-4 rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex flex-col items-center justify-center w-[40%] text-center shadow-soft">
-                            <h3 className="font-base leading-[1.3rem]">Robotics Competition Win</h3>
+                            <h3 className="font-medium leading-[1.3rem]">$50k+ <br /> raised for LLS</h3>
                             <img src="icons8-checkmark.svg" className="w-8" alt="" />
                         </div>
-                        <div className="bg-white space-y-2 p-4 rounded-2xl flex-col text-[16.6px] font-base md:w-[130px] h-32 flex items-center justify-center w-[40%] text-center shadow-soft"><h3 className="leading-[1.3rem]">College Java Cert</h3>
+                        <div className="bg-white space-y-2 p-4 rounded-2xl flex-col text-[16.6px] font-base md:w-[130px] h-32 flex items-center justify-center w-[40%] text-center shadow-soft"><h3 className="leading-[1.3rem] font-medium">Grade A Johns Hopkins</h3>
                             <img src="rocket-svgrepo-com (1).svg" className="w-8" alt="" />
                         </div>
-                        <div className="bg-white space-y-2 p-4 flex-col rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex items-center justify-center w-[40%] text-center shadow-soft"><h3 className="leading-[1.3rem]">2023 Hackaton win</h3>
+                        <div className="bg-white space-y-2 p-4 flex-col rounded-2xl text-[16.6px] font-base md:w-[130px] h-32 flex items-center justify-center w-[40%] text-center shadow-soft"><h3 className="leading-[1.3rem] font-medium">Robotics Competition Win</h3>
                             <img src="flag-svgrepo-com.svg" className="w-8" alt="" />
                         </div>
                     </div>
@@ -181,7 +181,7 @@ export default function Home() {
                   <Badge variant="outline" className="bg-purple-50">Mentorship</Badge>
                   <Badge variant="outline" className="bg-purple-50">Strategy</Badge>
                 </div>
-                <Link href="/philosophy">
+                <Link href="/about">
                   <Button className="w-full bg-purple-600 hover:bg-purple-700 group">
                     My Philosophy
                     <ChevronRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -217,7 +217,7 @@ export default function Home() {
                   <Badge variant="outline" className="bg-green-50">Data Analysis</Badge>
                   <Badge variant="outline" className="bg-green-50">EdTech</Badge>
                 </div>
-                <Link href="/innovation">
+                <Link href="/research">
                   <Button className="w-full bg-green-600 hover:bg-green-700 group">
                     View Research
                     <ChevronRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -248,7 +248,7 @@ export default function Home() {
                 Connect on LinkedIn
               </Button>
             </a>
-            <Link href="/philosophy">
+            <Link href="/about">
               <Button size="lg" className="bg-purple-700 hover:bg-purple-800 border-2 border-purple-700">
                 Learn My Philosophy
               </Button>
