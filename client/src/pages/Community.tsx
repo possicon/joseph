@@ -159,12 +159,12 @@ export default function Community() {
               <Card className="hover:shadow-xl transition-shadow border-l-4 border-l-green-600">
                 <CardHeader>
                   <CardTitle className="text-3xl">Shepherd's Table</CardTitle>
-                  <p className="text-gray-600 font-semibold">Volunteer | 2022-Present</p>
+                  <p className="text-gray-600 font-semibold">Volunteer | 2024-Present</p>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="md:col-span-2">
                     <p className="text-gray-700 leading-relaxed">
-                      Dedicated 2-3 years to volunteering at a local community center established for helping people in need. I help cook and clean to serve community members, contributing to an organization that feeds hundreds of people daily.
+                      Dedicated 2 years to volunteering at a local community center established for helping people in need. I help cook and clean to serve community members, contributing to an organization that feeds hundreds of people daily.
                     </p>
                   </div>
                   <div className="grid md:grid-cols-3 gap-3">

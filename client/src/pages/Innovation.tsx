@@ -131,7 +131,7 @@ export default function Innovation() {
             {/* Johns Hopkins Engineering Innovation */}
             <Card className="hover:shadow-xl transition-shadow bg-gradient-to-br from-blue-50 to-indigo-50">
               <CardHeader>
-                <CardTitle className="text-3xl">Johns Hopkins Engineering Innovation Program (Summer 2024)</CardTitle>
+                <CardTitle className="text-3xl">Johns Hopkins Engineering Innovation Program (Summer 2025)</CardTitle>
                 <p className="text-gray-600">Summer 2025 Program • Grade A</p>
               </CardHeader>
               <CardContent className="space-y-4">

@@ -206,7 +206,7 @@ export default function About() {
                     <div className="flex-shrink-0 w-80 bg-white border-2 border-blue-200 rounded-lg p-6 hover:shadow-xl transition-shadow">
                       <div className="flex items-center gap-3 mb-4">
                         <div className="w-3 h-3 bg-blue-600 rounded-full"></div>
-                        <span className="text-sm font-semibold text-blue-600">2023</span>
+                        <span className="text-sm font-semibold text-blue-600">2025</span>
                       </div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Johns Hopkins Engineering Innovation</h3>
                       <p className="text-gray-700 text-sm leading-relaxed">
@@ -278,7 +278,7 @@ export default function About() {
                     <div className="flex-shrink-0 w-80 bg-white border-2 border-teal-200 rounded-lg p-6 hover:shadow-xl transition-shadow">
                       <div className="flex items-center gap-3 mb-4">
                         <div className="w-3 h-3 bg-teal-600 rounded-full"></div>
-                        <span className="text-sm font-semibold text-teal-600">2024</span>
+                        <span className="text-sm font-semibold text-teal-600">2025</span>
                       </div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">DiscoverU Research</h3>
                       <p className="text-gray-700 text-sm leading-relaxed">
@@ -290,7 +290,7 @@ export default function About() {
                     <div className="flex-shrink-0 w-80 bg-gradient-to-br from-yellow-50 to-yellow-100 border-4 border-yellow-400 rounded-lg p-6 hover:shadow-2xl transition-shadow">
                       <div className="flex items-center gap-3 mb-4">
                         <div className="w-4 h-4 bg-yellow-600 rounded-full animate-pulse"></div>
-                        <span className="text-sm font-bold text-yellow-700">October 2024</span>
+                        <span className="text-sm font-bold text-yellow-700">October 2025</span>
                       </div>
                       <h3 className="text-2xl font-bold text-gray-900 mb-2">🏆 Won DiscoverU HackBac</h3>
                       <p className="text-gray-700 text-sm leading-relaxed font-medium">
