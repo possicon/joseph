@@ -12,7 +12,7 @@ export default function Home() {
       <Nav/>
 
       {/* Word Cloud Hero Section */}
-      <section className="pt-10 bg-white">
+      <section className="pt-4 bg-white">
         <div className="w-full">
           <img 
             src="/joseph-wordcloud-suit.jpeg" 
