@@ -1,7 +1,14 @@
 import { Link } from "wouter";
 import Nav from "./Nav";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    if (window.location.hash) {
+      const elem = document.querySelector(window.location.hash);
+      elem?.scrollIntoView({ behavior : "smooth"})
+    }
+  }, [])
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -167,7 +174,7 @@ export default function About() {
             </div>
 
             {/* Leadership Philosophy */}
-            <div>
+            <div id="philosophy">
               <h2 className="text-4xl font-bold mb-8 text-gray-900">Leadership Philosophy</h2>
               <div className="prose prose-lg text-gray-700 leading-relaxed space-y-6">
                 <p>
