@@ -133,6 +133,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer components {
   /**
    * Custom container utility that centers content and adds responsive padding.

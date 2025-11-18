@@ -66,7 +66,7 @@ export default function Community() {
             </div>
             
             {/* Two Photos Side by Side - Same Size and Aligned */}
-            <div className="grid md:grid-cols-3 gap-x-3 mb-16 max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-3 mb-10 max-w-5xl mx-auto">
               <img 
                 src="/giveback-backpacks-distribution.jpeg" 
                 alt="Giveback Backpacks Distribution - Handing out laptops" 
@@ -85,24 +85,30 @@ export default function Community() {
             </div>
             
             {/* Impact Section */}
-            <div className="bg-blue-50 p-6 rounded-lg mb-16 max-w-5xl mx-auto">
-              <h3 className="text-xl font-bold text-blue-900 mb-3">Impact</h3>
-              <p className="text-gray-700 mb-4">
-                Hundreds of students supported with essential school supplies.
-              </p>
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                  <p className="text-gray-700 text-sm">Multiple fundraising campaigns</p>
+            <div className=" shadow-sm p-6 rounded-lg max-w-5xl items-center mx-auto grid md:grid-cols-2 grid-cols-1 gap-4">
+              <div>
+                <h3 className="text-xl font-bold text-blue-900 mb-3">Impact</h3>
+                <p className="text-gray-700 mb-4">
+                  Hundreds of students supported with essential school supplies.
+                </p>
+                <div className="space-y-2">
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                    <p className="text-gray-700 text-sm">Multiple fundraising campaigns</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                    <p className="text-gray-700 text-sm">Community supply drives</p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                    <p className="text-gray-700 text-sm">School partnerships</p>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                  <p className="text-gray-700 text-sm">Community supply drives</p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                  <p className="text-gray-700 text-sm">School partnerships</p>
-                </div>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-lg h-24 flex items-start flex-col justify-center">
+                <p className="text-2xl font-bold text-blue-900">$70,000+ raised</p>
+                <p className="text-gray-600 text-sm mt-1">Supporting educational equality and creating opportunities for success</p>
               </div>
             </div>
           </div>
@@ -110,12 +116,12 @@ export default function Community() {
       </section>
 
       {/* Additional Community Impact */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl font-bold mb-12 text-gray-900">Additional Community Impact</h2>
             
-            <div className="grid gap-8">
+            <div className="grid gap-6">
               {/* Leukemia & Lymphoma Society */}
               <Card className="hover:shadow-xl transition-shadow border-l-4 border-l-purple-600">
                 <CardHeader>
@@ -167,7 +173,7 @@ export default function Community() {
                       Dedicated 2 years to volunteering at a local community center established for helping people in need. I help cook and clean to serve community members, contributing to an organization that feeds hundreds of people daily.
                     </p>
                   </div>
-                  <div className="grid md:grid-cols-3 gap-3">
+                  <div className="grid md:grid-cols-3 grid-cols-1 gap-3">
                     <img 
                       src="/shepherds.jpeg" 
                       alt="Shepherd's Table Volunteer Work" 
