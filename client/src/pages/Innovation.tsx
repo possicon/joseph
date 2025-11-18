@@ -27,10 +27,10 @@ export default function Innovation() {
             {/* DiscoverU */}
             <Card className="hover:shadow-xl transition-shadow">
               <CardHeader>
-                <div className="flex items-start justify-between flex-wrap gap-4">
+                <div className="flex items-start justify-between flex-wrap gap-2">
                   <div>
-                    <CardTitle className="text-3xl mb-2">DiscoverU – Gamified Career Exploration (2023 – 2025)</CardTitle>
-                    <Badge className="bg-yellow-500 hover:bg-yellow-600">🏆 2025 HackBack Winner</Badge>
+                    <CardTitle className="text-3xl">DiscoverU – Gamified Career Exploration (2023 – 2025)</CardTitle>
+                    {/* <Badge className="bg-yellow-500 hover:bg-yellow-600">🏆 2025 HackBack Winner</Badge> */}
                   </div>
                 </div>
               </CardHeader>
@@ -173,7 +173,7 @@ export default function Innovation() {
                 <p className="text-gray-600">Programming & Design Lead</p>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-1 gap-6">
                   <div className="space-y-4">
                     <p className="text-gray-700 leading-relaxed">
                       As Programming and Design Lead for my school's robotics team, I lead the development of competition-ready robots from concept through execution. I design and manufacture robot components using CAD software, write control code for autonomous and driver-controlled operations, and guide strategy during competitions.
@@ -190,7 +190,7 @@ export default function Innovation() {
                     </p>
                   </div>
 
-                  <div className="space-y-4">
+                  <div className="space-y-4 grid md:grid-cols-2 grid-cols-1 gap-3">
                     <img 
                       src="/robotics-joseph-pro.jpeg" 
                       alt="Joseph with Competition Robot" 
@@ -199,7 +199,7 @@ export default function Innovation() {
                     <img 
                       src="/robotics-team-trophy.jpeg" 
                       alt="Robotics Competition Team with Trophy" 
-                      className="rounded-lg shadow-lg w-full object-cover object-[center_35%] h-64"
+                      className="rounded-lg shadow-lg w-full object-cover object-[center_35%] h-80"
                     />
                   </div>
                 </div>
@@ -213,8 +213,14 @@ export default function Innovation() {
                 <p className="text-gray-600">Professional Experience (August 2024)</p>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="space-y-4 grid grid-cols-2 items-center gap-2">
-                  <div>
+                <p className="text-gray-700 leading-relaxed">
+                  Gained valuable professional experience in the technology sector through a summer internship at NIKA. Applied technical skills in a real-world business environment and contributed to meaningful projects.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="outline">Professional Development</Badge>
+                  <Badge variant="outline">Technology Sector</Badge>
+                </div>
+                <div className="space-y-4 grid md:grid-cols-2 items-center gap-2">              
                     <img 
                       src="/nika.jpeg" 
                       alt="Joseph with Competition Robot" 
@@ -224,20 +230,7 @@ export default function Innovation() {
                       src="/nika-internship.jpeg" 
                       alt="NIKA Internship" 
                       className="rounded-lg shadow-md w-full object-fill object-[center_0%] h-72"
-                    />
-                  </div>
-                    <img 
-                      src="/nika-1.jpeg" 
-                      alt="Robotics Competition Team with Trophy" 
-                      className="rounded-lg shadow-lg w-full object-fill object-[center_0%] h-90"
-                    />
-                  </div>
-                <p className="text-gray-700 leading-relaxed">
-                  Gained valuable professional experience in the technology sector through a summer internship at NIKA. Applied technical skills in a real-world business environment and contributed to meaningful projects.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Professional Development</Badge>
-                  <Badge variant="outline">Technology Sector</Badge>
+                    />             
                 </div>
               </CardContent>
             </Card>
@@ -251,7 +244,7 @@ export default function Innovation() {
                 <p className="text-gray-600">American University Project (2023)</p>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-x-2">
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
                   <div className="w-full">
                     <img 
                       src="/achieve-balance.jpeg" 

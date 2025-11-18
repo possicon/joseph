@@ -12,7 +12,7 @@ export default function Home() {
       <Nav/>
 
       {/* Word Cloud Hero Section */}
-      <section className="pt-4 bg-white">
+      <section className="pt-20 bg-white">
         <div className="w-full">
           <img 
             src="/joseph-wordcloud-suit.jpeg" 
@@ -155,7 +155,7 @@ export default function Home() {
             </Card>
 
             {/* Leadership Hero */}
-            <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-purple-500 overflow-hidden">
+            <Card id="philosophy" className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-transparent hover:border-purple-500 overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <img 
                   src="/johns-hopkins-engineering.jpeg" 
@@ -181,7 +181,7 @@ export default function Home() {
                   <Badge variant="outline" className="bg-purple-50">Mentorship</Badge>
                   <Badge variant="outline" className="bg-purple-50">Strategy</Badge>
                 </div>
-                <Link href="/about">
+                <Link to="/about">
                   <Button className="w-full bg-purple-600 hover:bg-purple-700 group">
                     My Philosophy
                     <ChevronRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -248,7 +248,7 @@ export default function Home() {
                 Connect on LinkedIn
               </Button>
             </a>
-            <Link href="/about">
+            <Link to="/about">
               <Button size="lg" className="bg-purple-700 hover:bg-purple-800 border-2 border-purple-700">
                 Learn My Philosophy
               </Button>

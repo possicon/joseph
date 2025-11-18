@@ -40,9 +40,9 @@ export default function About() {
             <div>
               <div className="flex items-center justify-center">
                 <img 
-                  src="/joseph-portrait-1.jpeg" 
+                  src="/robotics-joseph-pro.jpeg" 
                   alt="Joseph Peters Professional Portrait" 
-                  className="rounded-lg shadow-lg w-[60%] object-cover h-130 object-[center_20%]"
+                  className="rounded-lg shadow-lg md:w-[80%] w-full object-cover object-[center_20%]"
                 />
               </div>
             </div>
@@ -148,22 +148,17 @@ export default function About() {
                     </div>
                   </div>
                   {/* Fencing Video */}
-                  <div className="mt-4 grid md:grid-cols-2 items-center gap-x-2">
+                  <div className="mt-4 grid md:grid-cols-2 items-center gap-3">
                     <img 
                       src="/fencing.jpeg" 
                       alt="Achieve Balance Project" 
-                      className="rounded-lg shadow-md w-full h-96 object-cover mb-4"
+                      className="rounded-lg shadow-md w-full h-96 object-cover"
                     />
                     <div className="w-full space-y-2">
                       <video  
-                        className="w-full rounded-lg shadow-lg object-cover"
+                        className="w-full rounded-lg shadow-lg h-96 object-cover"
                         poster="/fencing-video-poster.jpg"
                         src="/fencing-2.mp4" autoPlay muted loop playsInline
-                      />
-                      <video  
-                        className="w-full rounded-lg shadow-lg object-cover"
-                        poster="/fencing-video-poster.jpg"
-                        src="/fencing.mp4" autoPlay muted loop playsInline
                       />
                     </div>
                   </div>

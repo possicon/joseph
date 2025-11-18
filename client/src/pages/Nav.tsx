@@ -14,7 +14,7 @@ const Nav = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen)
 
   return (
-    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         
         <Link href="/">
