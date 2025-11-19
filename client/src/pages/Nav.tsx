@@ -15,7 +15,7 @@ const Nav = () => {
 
   return (
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50">
-      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="mx-auto px-6 py-4 flex items-center justify-between">
         
         <Link href="/">
           <a className="text-2xl font-bold text-gray-700 hover:text-gray-800 transition-colors tracking-wide">
