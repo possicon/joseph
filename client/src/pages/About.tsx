@@ -1,14 +1,13 @@
 import { Link } from "wouter";
 import Nav from "./Nav";
-import { useEffect } from "react";
 
 export default function About() {
-  useEffect(() => {
-    if (window.location.hash) {
-      const elem = document.querySelector(window.location.hash);
-      elem?.scrollIntoView({ behavior : "smooth"})
-    }
-  }, [])
+  // useEffect(() => {
+  //   if (window.location.hash) {
+  //     const elem = document.querySelector(window.location.hash);
+  //     elem?.scrollIntoView({ behavior : "smooth"})
+  //   }
+  // }, [])
   return (
     <div className="min-h-screen">
       {/* Navigation */}
@@ -47,7 +46,7 @@ export default function About() {
             <div>
               <div className="flex items-center justify-center">
                 <img 
-                  src="/robotics-joseph-pro.jpeg" 
+                  src="/josephspeterhero.jpeg" 
                   alt="Joseph Peters Professional Portrait" 
                   className="rounded-lg shadow-lg md:w-[80%] w-full object-cover object-[center_20%]"
                 />
@@ -174,7 +173,7 @@ export default function About() {
             </div>
 
             {/* Leadership Philosophy */}
-            <div id="philosophy">
+            <div>
               <h2 className="text-4xl font-bold mb-8 text-gray-900">Leadership Philosophy</h2>
               <div className="prose prose-lg text-gray-700 leading-relaxed space-y-6">
                 <p>
@@ -336,14 +335,14 @@ export default function About() {
             I'm always looking for opportunities to collaborate on projects that combine technology, education, and social impact. Whether you're an educator, engineer, or changemaker—let's connect.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a 
+            {/* <a 
               href="https://www.linkedin.com/in/joseph-peters" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Connect on LinkedIn
-            </a>
+            </a> */}
             <Link href="/innovation">
               <a className="bg-white/10 text-white border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition-colors">
                 View My Projects
@@ -358,7 +357,7 @@ export default function About() {
         <div className="container mx-auto px-6">
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">FOLLOW MY JOURNEY</h3>
-            <p className="text-gray-400 mb-6">Connect with me on LinkedIn</p>
+            {/* <p className="text-gray-400 mb-6">Connect with me on LinkedIn</p> */}
             <p className="text-gray-500 text-sm">
               © 2025 Joseph Peters. Building ethical technology for tomorrow.
             </p>
