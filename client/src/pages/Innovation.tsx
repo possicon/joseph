@@ -220,11 +220,11 @@ export default function Innovation() {
                   <Badge variant="outline">Professional Development</Badge>
                   <Badge variant="outline">Technology Sector</Badge>
                 </div>
-                <div className="space-y-4 grid md:grid-cols-2 items-center gap-2">              
+                <div className="grid md:grid-cols-2 items-center gap-4">              
                     <img 
                       src="/nika.jpeg" 
                       alt="Joseph with Competition Robot" 
-                      className="rounded-lg shadow-lg w-full object-fill object-[center_0%] h-72 mb-4"
+                      className="rounded-lg shadow-md w-full object-fill object-[center_0%] h-72"
                     />
                     <img 
                       src="/nika-internship.jpeg" 
@@ -294,7 +294,7 @@ export default function Innovation() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-6 text-center">
           <h3 className="text-2xl font-bold mb-4">FOLLOW MY JOURNEY</h3>
-          <p className="text-gray-300 mb-6">Connect with me on LinkedIn!</p>
+          {/* <p className="text-gray-300 mb-6">Connect with me on LinkedIn!</p> */}
           <p className="text-sm text-gray-400">© 2025 Joseph Peters. Building ethical technology for tomorrow.</p>
         </div>
       </footer>
